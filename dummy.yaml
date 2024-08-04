@@ -7,14 +7,15 @@ metadata:
   # annotations:
   #   github.com/project-slug: backstage/backstage
   #   backstage.io/techdocs-ref: dir:.
-spec:
-  lifecycle: production
-  type: apple
-  owner: chirag.malik@armorcode.io
   tags:
     - example
     - dummy
     - application
+spec:
+  lifecycle: production
+  type: apple
+  owner: chirag.malik@armorcode.io
+
 ---
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
 apiVersion: backstage.io/v1alpha1
