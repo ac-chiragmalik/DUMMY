@@ -8,7 +8,7 @@ metadata:
   #   github.com/project-slug: backstage/backstage
   #   backstage.io/techdocs-ref: dir:.
 spec:
-  lifecycle: development
+  lifecycle: production
   type: applc
   owner: chirag.malik@armorcode.io
 ---
@@ -29,7 +29,7 @@ metadata:
   name: chiragmalik
 spec:
   memberOf: [yoyo]
-  lifecycle: development
+  lifecycle: production
   profile:
     email: chirag.malik@xyz.io
     displayName: chiragmalik
