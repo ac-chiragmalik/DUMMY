@@ -9,8 +9,6 @@ metadata:
   #   backstage.io/techdocs-ref: dir:.
   tags:
     - example
-    - dummy
-    - application
 spec:
   lifecycle: production
   type: apple
