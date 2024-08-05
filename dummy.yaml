@@ -12,12 +12,14 @@ metadata:
     - dummy
     - application
     - dumdum
+    - hoholy
 spec:
   lifecycle: production
   type: apple
   owner: chirag.malik@armorcode.io
   system: dumsystem
   domain: dumdomain
+  parent: zozo
 
 ---
 
@@ -44,6 +46,17 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: yoyo
+spec:
+  type: team
+  children: []
+
+---
+
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: zozo
 spec:
   type: team
   children: []
