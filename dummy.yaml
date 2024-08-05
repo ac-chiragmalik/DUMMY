@@ -16,9 +16,28 @@ spec:
   lifecycle: production
   type: apple
   owner: chirag.malik@armorcode.io
-  system: example-system
-  domain: example-domain
+  system: dumsystem
+  domain: dumdomain
 
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: dumsystem
+  description: An example system that groups related components
+spec:
+  owner: chirag.malik@armorcode.io
+  domain: dumdomain
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: dumdomain
+  description: An example domain grouping multiple systems
+spec:
+  owner: chirag.malik@armorcode.io
 ---
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
 apiVersion: backstage.io/v1alpha1
