@@ -11,6 +11,7 @@ metadata:
     - example
     - dummy
     - application
+    - dumdum
 spec:
   lifecycle: production
   type: apple
