@@ -16,7 +16,7 @@ metadata:
 spec:
   lifecycle: production
   type: apple
-  owner: chirag.malik@armorcode.io
+  owner: zozo
   system: dumsystem
   domain: dumdomain
   parent: zozo
@@ -29,7 +29,7 @@ metadata:
   name: dumsystem
   description: An example system that groups related components
 spec:
-  owner: chirag.malik@armorcode.io
+  owner: zozo
   domain: dumdomain
 
 ---
@@ -39,7 +39,7 @@ metadata:
   name: dumdomain
   description: An example domain grouping multiple systems
 spec:
-  owner: chirag.malik@armorcode.io
+  owner: zozo
 ---
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
 apiVersion: backstage.io/v1alpha1
