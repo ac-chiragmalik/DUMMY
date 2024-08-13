@@ -74,3 +74,17 @@ spec:
     email: chirag.malik@xyz.io
     displayName: chiragmalik
     name: chiragmalik    
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: niki
+spec:
+  memberOf: [yoyo]
+  lifecycle: production
+  profile:
+    email: niki.patel@armorcode.io
+    displayName: niki
+    name: niki   
