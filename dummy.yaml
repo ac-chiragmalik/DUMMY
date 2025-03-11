@@ -66,11 +66,11 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: govind
+  name: hiren
 spec:
   memberOf: [yoyo]
   lifecycle: production
   profile:
-    email: govind.bhartiya@armorcode.io
-    displayName: govind
-    name: govind    
+    email: hiren.timbadiya@armorcode.io
+    displayName: hiren
+    name: hiren    
