@@ -74,3 +74,31 @@ spec:
     email: hiren.timbadiya@armorcode.io
     displayName: hiren
     name: hiren
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: chirag
+spec:
+  memberOf: [yoyo]
+  lifecycle: production
+  profile:
+    email: chirag.malik@armorcode.io
+    displayName: chirag
+    name: chirag
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: pragati
+spec:
+  memberOf: [yoyo]
+  lifecycle: production
+  profile:
+    email: pragati.dubey@armorcode.io
+    displayName: pragati
+    name: pragati
